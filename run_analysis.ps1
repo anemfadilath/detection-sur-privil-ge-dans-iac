@@ -1,5 +1,5 @@
 param(
-    [string]$TerraformDir = "terraform",
+    [string]$TerraformDir = "<iac-code-dir>",
 
     [string]$AthenaDb = "<athena-db>",
     [string]$AthenaTable = "<athena-table>",

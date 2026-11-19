@@ -1,10 +1,10 @@
 param(
     [string]$TerraformDir = "terraform",
 
-    [string]$AthenaDb = "default",
-    [string]$AthenaTable = "cloudtrail_logs_lpg_trail_logs_438641189182",
-    [string]$AthenaOutput = "s3://lpg-athena-results-438641189182/",
-    [string]$Region = "eu-west-3"
+    [string]$AthenaDb = "<athena-db>",
+    [string]$AthenaTable = "<athena-table>",
+    [string]$AthenaOutput = "<athena-output-bucket>",
+    [string]$Region = "<region>"
 )
 
 $ErrorActionPreference = "Stop"
